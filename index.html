@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Gerald Zinyama Chigumbura</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-bold text-indigo-600">Gerald ZInyama Chigumbura</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-indigo-600 transition-colors">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition-colors">Projects</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-600">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-600 hover:text-indigo-600">Home</a>
+                <a href="#about" class="block px-3 py-2 text-gray-600 hover:text-indigo-600">About</a>
+                <a href="#projects" class="block px-3 py-2 text-gray-600 hover:text-indigo-600">Projects</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-600 hover:text-indigo-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-indigo-600">Gerald ZInyama Chigumbura</span></h1>
+                    <h2 class="text-xl md:text-2xl text-gray-600 mb-6">Frontend Developer,Backend Developer and UI/UX Designer</h2>
+                    <p class="text-gray-600 mb-8">I create beautiful, functional websites that deliver exceptional user experiences.</p>
+                    <div class="flex space-x-4">
+                        <a href="#projects" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">View Work</a>
+                        <a href="#contact" class="border border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-600 hover:text-white transition-colors">Contact Me</a>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="flex justify-center">
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-indigo-100 rounded-full overflow-hidden shadow-xl">
+                        <img src="C:\Users\Daven\Desktop\my Portfolio\suit.jpg" alt="Profile" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-aos="fade-up" class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold mb-6">My Journey</h3>
+                    <p class="text-gray-600 mb-6">
+                        With 2+ years of experience in web development, I specialize in creating responsive,
+                        user-friendly websites using modern technologies. I'm passionate about turning ideas
+                        into reality through code.
+                    </p>
+                    <p class="text-gray-600 mb-8">
+                        My approach combines technical expertise with creative design thinking to deliver
+                        solutions that not only look great but also perform exceptionally.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full">HTML/CSS</span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full">JavaScript</span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full">React</span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full">Tailwind</span>
+                        <span class="bg-gray-100 text-gray-800 px-4 py-2 rounded-full">UI/UX Design</span>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="grid grid-cols-2 gap-4">
+                    <div class="bg-gray-100 p-6 rounded-lg text-center">
+                        <i data-feather="code" class="w-8 h-8 text-indigo-600 mx-auto mb-4"></i>
+                        <h4 class="font-semibold mb-2">Web Development</h4>
+                        <p class="text-gray-600">Building responsive and accessible websites</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center">
+                        <i data-feather="layout" class="w-8 h-8 text-indigo-600 mx-auto mb-4"></i>
+                        <h4 class="font-semibold mb-2">UI/UX Design</h4>
+                        <p class="text-gray-600">Creating intuitive user experiences</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center">
+                        <i data-feather="smartphone" class="w-8 h-8 text-indigo-600 mx-auto mb-4"></i>
+                        <h4 class="font-semibold mb-2">Click n Pay Remit</h4>
+                        <p class="text-gray-600">Money Remitting Application</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg text-center">
+                        <i data-feather="zap" class="w-8 h-8 text-indigo-600 mx-auto mb-4"></i>
+                        <h4 class="font-semibold mb-2">Performance</h4>
+                        <p class="text-gray-600">Fast and efficient solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-aos="fade-up" class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiZLeyjxu85dB-2bBooqRPe5OzeRi846ntRA&s" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">E-Musika Website</h3>
+                        <p class="text-gray-600 mb-4">A modern e-commerce platform with responsive design.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">React</span>
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Tailwind</span>
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Node.js</span>
+                        </div>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold">View Project →</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="data:image/jpeg;base64,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" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Dashboard UI</h3>
+                        <p class="text-gray-600 mb-4">Analytics dashboard with interactive charts.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Vue.js</span>
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Chart.js</span>
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">CSS3</span>
+                        </div>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold">View Project →</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div data-aos="fade-up" data-aos-delay="300" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="http://static.photos/minimal/640x360/3" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Portfolio Template</h3>
+                        <p class="text-gray-600 mb-4">Clean and modern portfolio template for creatives.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">HTML/CSS</span>
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">JavaScript</span>
+                            <span class="text-sm bg-indigo-100 text-indigo-800 px-2 py-1 rounded">GSAP</span>
+                        </div>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-semibold">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-aos="fade-up" class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold mb-6">Let's work together</h3>
+                    <p class="text-gray-600 mb-8">
+                        I'm always interested in new opportunities and exciting projects.
+                        Feel free to reach out if you'd like to work together!
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <i data-feather="mail" class="text-indigo-600"></i>
+                            <span>gczinyama2005@gmail.com</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i data-feather="phone" class="text-indigo-600"></i>
+                            <span>+263 776 858 078 or +355 69 787 9409</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i data-feather="map-pin" class="text-indigo-600"></i>
+                            <span>Light Industries , Chinhoyi</span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex justify-center space-x-6 mb-6">
+                    <a href="https://github.com/vazinyama/myProjects" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gerald-chigumbura-2111a9386/" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="X"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="dribbble"></i>
+                    </a>
+                </div>
+                <p>&copy; 2025 VaZinyama. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+        feather.replace();
+    </script>
+</body>
+</html>
